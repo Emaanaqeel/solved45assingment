@@ -1,12 +1,9 @@
-/*. Stripping Names: Store a person’s name, and include some whitespace characters at the beginning and end of the name. Make sure you use each
-character combination, "\t" and "\n", at least once. Print the name once, so the whitespace around the name is displayed. Then print the name after striping the white spaces.*/
+/*7. Number Eight: Write addition, subtraction, multiplication, and division operations that each result
+ in the number 8. Be sure to enclose your operations in print statements to see the results.?*/
 
-import { Console } from "console";
+ let addition = 4 + 4;
+ let subtraction = 10-2;
+ let multiplication = 2* 4;
+ let division= 32 / 4;
 
-
-let myName = "\tEmaan malik\t"
-let my_name ="\nEmaan malik\n"
-
-console.log(myName);
-console.log(my_name)
-console.log(myName.trim());
+ console.log(addition, subtraction,multiplication,division);
