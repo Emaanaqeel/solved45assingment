@@ -1,21 +1,9 @@
-/* 3 Name Cases: Store a person’s name in a variable, and then print that person’s name in
- lowercase, uppercase, and titlecase.*/
+/*Famous Quote: Find a quote from a famous person you admire. Print the quote and the name of its author. Your output should look something like the
+/*following, including the quotation marks://
+Albert Einstein once said, “A person who never made a mistake never tried anything new.”*/
 
- let personName :string="shanayaMalik";
+const myQuote : string = `albert einstein once said,"A person who never made a mistake never tried anything new " `
 
- //lowercase
+//backtick
 
- console.log(personName.toLowerCase());
-
- //uppercase
-
- console.log(personName.toUpperCase());
-
- //titlecase
-
- let firstLetter : string = personName .charAt(0).toUpperCase();
- let restLetter : string = personName .slice(1).toLowerCase();
-
- let titleCase = firstLetter+ restLetter;
-
- console.log(titleCase);
+console.log(myQuote);
